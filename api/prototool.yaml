@@ -16,6 +16,3 @@ generate:
     - name: js
       output: ./gen/web
       flags: import_style=commonjs
-    - name: java
-      output: ./gen/java
-      file_suffix: jar
