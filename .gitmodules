@@ -1,0 +1,6 @@
+[submodule "third_party/dex"]
+	path = third_party/dex
+	url = https://github.com/dexidp/dex.git
+[submodule "third_party/hydra"]
+	path = third_party/hydra
+	url = https://github.com/ory/hydra.git

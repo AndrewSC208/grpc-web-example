@@ -1,0 +1,32 @@
+.counter {
+    max-width: 400px;
+    padding: 25px 25px 25px 25px;
+    border: 1px solid #e1e1e1e1;
+}
+
+.counterName {
+    min-width: 250px;
+}
+
+.counterButton {
+    margin: 0px 25px;
+    margin-top: -10px;
+}
+
+.counterValue {
+    font-size: 32px;
+}
+
+.counterActions {
+    margin-left: -25px;
+}
+
+.deleteButton {
+    float: right;
+    margin-top: 8px;
+}
+
+.createCounterBtn {
+    float: right;
+    margin: 25px 25px;
+}

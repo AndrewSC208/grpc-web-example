@@ -1,0 +1,21 @@
+protoc:
+  version: 3.6.1
+lint:
+  group: uber2
+generate:
+  go_options:
+    import_path: .
+  plugins:
+    - name: go
+      type: go
+      flags: plugins=grpc
+      output: ./gen/go
+    - name: grpc-web
+      output: ./gen/web
+      flags: import_style=commonjs+dts,mode=grpcwebtext
+    - name: js
+      output: ./gen/web
+      flags: import_style=commonjs
+    - name: java
+      output: ./gen/java
+      file_suffix: jar

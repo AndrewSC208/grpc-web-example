@@ -1,0 +1,5 @@
+# This will be the values file for the helm chart to deploy this service.
+
+# The config yaml file will need to be used for service configuration. Might be able to mount the config.yaml file
+# to the container as a configMap. Seems like an interesting idea.
+

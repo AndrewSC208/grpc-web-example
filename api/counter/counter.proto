@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package app.v1;
+
+service CounterService {
+  rpc Create(Counter) returns (Id);
+  rpc Read(Blank) returns (Counters);
+  rpc Update(Counter) returns (Id);
+  rpc Delete(Counter) returns (Id);
+}
+
+message Counter {
+  string id = 1;
+  string name = 2;
+  int64 count = 3;
+}
+
+message Counters {
+  repeated Counter counters = 1;
+}
+
+message Id {
+  string id = 1;
+}
+
+message Blank {}

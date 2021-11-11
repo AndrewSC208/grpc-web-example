@@ -1,0 +1,9 @@
+# This is an example config file
+
+# Secret Key is the key used to get a valid user token from OAuth 2 Server
+SecretKey: 123
+
+# String used to connect to the db
+DatabaseURI: set me to the databse uri
+# Dialect used when communicating with the db
+DatabaseDialect: postgres

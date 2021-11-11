@@ -1,0 +1,11 @@
+node_modules/
+.vscode/
+third_party/cockroach-data/
+third_party/cockroachDB/cockroach-data/
+third_party/mongo-data/
+third_party/cockroachDB/safe/
+third_praty/cockroachDB/certs/
+config.yaml
+.DS_Store
+.idea/
+.idea

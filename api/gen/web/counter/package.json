@@ -1,0 +1,15 @@
+{
+	"name": "counter_rpc_service",
+	"version": "v1.8.31",
+	"description": "Generated rpc transport layer",
+	"main": "counter_grpc_web_pb.js",
+	"author": "Andrew Meiling",
+	"license": "ISC",
+	"scripts": {
+		"Test": "echo \"Error: no test specified\" \u0026\u0026 exit 1"
+	},
+	"dependencies": {
+		"google-protobuf": "^3.8.0-rc.1",
+		"grpc-web": "^1.0.4"
+	}
+}
